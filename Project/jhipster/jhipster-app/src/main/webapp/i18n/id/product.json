@@ -1,0 +1,29 @@
+{
+  "jhipsterApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Product baru",
+        "createOrEditLabel": "Buat atau edit Product",
+        "notFound": "No Products found"
+      },
+      "created": "Product dengan id {{ param }} telah dibuat",
+      "updated": "Product dengan id {{ param }} telah diperbaharui",
+      "deleted": "Product dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "size": "Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}
