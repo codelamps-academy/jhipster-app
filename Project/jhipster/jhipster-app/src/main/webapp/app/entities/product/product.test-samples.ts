@@ -1,34 +1,33 @@
 import { IProduct, NewProduct } from './product.model';
 
 export const sampleWithRequiredData: IProduct = {
-  id: 12100,
-  name: 'fooey',
-  price: 29415.06,
-  size: 'M',
+  id: 31753,
+  name: 'jovially',
+  price: 8019.08,
+  size: 'L',
 };
 
 export const sampleWithPartialData: IProduct = {
-  id: 5821,
-  name: 'beware',
-  description: 'vastly knottily ha',
-  price: 3429.84,
-  size: 'S',
+  id: 1128,
+  name: 'concerning throughout',
+  price: 11690.27,
+  size: 'L',
 };
 
 export const sampleWithFullData: IProduct = {
-  id: 10908,
-  name: 'musty',
-  description: 'which although clap',
-  price: 5232.3,
-  size: 'XL',
+  id: 30919,
+  name: 'regarding flare',
+  description: 'aluminium yippee preface',
+  price: 25592.66,
+  size: 'S',
   image: '../fake-data/blob/hipster.png',
   imageContentType: 'unknown',
 };
 
 export const sampleWithNewData: NewProduct = {
-  name: 'tan literate',
-  price: 14991.31,
-  size: 'L',
+  name: 'ouch extra-small',
+  price: 23496.7,
+  size: 'XXL',
   id: null,
 };
 

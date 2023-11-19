@@ -49,6 +49,17 @@ public class CacheConfiguration {
             createCache(cm, com.codelamps.domain.Authority.class.getName());
             createCache(cm, com.codelamps.domain.User.class.getName() + ".authorities");
             createCache(cm, com.codelamps.domain.Product.class.getName());
+            createCache(cm, com.codelamps.domain.ProductCategory.class.getName());
+            createCache(cm, com.codelamps.domain.ProductCategory.class.getName() + ".products");
+            createCache(cm, com.codelamps.domain.Customer.class.getName());
+            createCache(cm, com.codelamps.domain.Customer.class.getName() + ".orders");
+            createCache(cm, com.codelamps.domain.ProductOrder.class.getName());
+            createCache(cm, com.codelamps.domain.ProductOrder.class.getName() + ".orderItems");
+            createCache(cm, com.codelamps.domain.ProductOrder.class.getName() + ".invoices");
+            createCache(cm, com.codelamps.domain.OrderItem.class.getName());
+            createCache(cm, com.codelamps.domain.Invoice.class.getName());
+            createCache(cm, com.codelamps.domain.Invoice.class.getName() + ".shipments");
+            createCache(cm, com.codelamps.domain.Shipment.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

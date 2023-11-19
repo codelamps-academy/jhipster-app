@@ -1,0 +1,33 @@
+{
+  "jhipsterApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Customer baru",
+        "createOrEditLabel": "Buat atau edit Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer dengan id {{ param }} telah dibuat",
+      "updated": "Customer dengan id {{ param }} telah diperbaharui",
+      "deleted": "Customer dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Product Category baru",
+        "createOrEditLabel": "Buat atau edit Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Product Category dengan id {{ param }} telah dibuat",
+      "updated": "Product Category dengan id {{ param }} telah diperbaharui",
+      "deleted": "Product Category dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

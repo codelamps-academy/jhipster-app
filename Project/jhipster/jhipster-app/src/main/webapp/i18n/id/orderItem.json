@@ -1,0 +1,28 @@
+{
+  "jhipsterApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Order Item baru",
+        "createOrEditLabel": "Buat atau edit Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "Order Item dengan id {{ param }} telah dibuat",
+      "updated": "Order Item dengan id {{ param }} telah diperbaharui",
+      "deleted": "Order Item dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

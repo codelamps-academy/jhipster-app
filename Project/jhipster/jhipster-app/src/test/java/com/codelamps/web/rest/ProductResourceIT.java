@@ -351,12 +351,6 @@ class ProductResourceIT {
         Product partialUpdatedProduct = new Product();
         partialUpdatedProduct.setId(product.getId());
 
-        partialUpdatedProduct
-            .description(UPDATED_DESCRIPTION)
-            .size(UPDATED_SIZE)
-            .image(UPDATED_IMAGE)
-            .imageContentType(UPDATED_IMAGE_CONTENT_TYPE);
-
         restProductMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedProduct.getId())
@@ -370,11 +364,11 @@ class ProductResourceIT {
         assertThat(productList).hasSize(databaseSizeBeforeUpdate);
         Product testProduct = productList.get(productList.size() - 1);
         assertThat(testProduct.getName()).isEqualTo(DEFAULT_NAME);
-        assertThat(testProduct.getDescription()).isEqualTo(UPDATED_DESCRIPTION);
+        assertThat(testProduct.getDescription()).isEqualTo(DEFAULT_DESCRIPTION);
         assertThat(testProduct.getPrice()).isEqualByComparingTo(DEFAULT_PRICE);
-        assertThat(testProduct.getSize()).isEqualTo(UPDATED_SIZE);
-        assertThat(testProduct.getImage()).isEqualTo(UPDATED_IMAGE);
-        assertThat(testProduct.getImageContentType()).isEqualTo(UPDATED_IMAGE_CONTENT_TYPE);
+        assertThat(testProduct.getSize()).isEqualTo(DEFAULT_SIZE);
+        assertThat(testProduct.getImage()).isEqualTo(DEFAULT_IMAGE);
+        assertThat(testProduct.getImageContentType()).isEqualTo(DEFAULT_IMAGE_CONTENT_TYPE);
     }
 
     @Test

@@ -50,10 +50,10 @@ describe('Product Management Update Component', () => {
   describe('ngOnInit', () => {
     it('Should call ProductCategory query and add missing value', () => {
       const product: IProduct = { id: 456 };
-      const productCategory: IProductCategory = { id: 12412 };
+      const productCategory: IProductCategory = { id: 8500 };
       product.productCategory = productCategory;
 
-      const productCategoryCollection: IProductCategory[] = [{ id: 15190 }];
+      const productCategoryCollection: IProductCategory[] = [{ id: 25156 }];
       jest.spyOn(productCategoryService, 'query').mockReturnValue(of(new HttpResponse({ body: productCategoryCollection })));
       const additionalProductCategories = [productCategory];
       const expectedCollection: IProductCategory[] = [...additionalProductCategories, ...productCategoryCollection];
@@ -72,7 +72,7 @@ describe('Product Management Update Component', () => {
 
     it('Should update editForm', () => {
       const product: IProduct = { id: 456 };
-      const productCategory: IProductCategory = { id: 7502 };
+      const productCategory: IProductCategory = { id: 28511 };
       product.productCategory = productCategory;
 
       activatedRoute.data = of({ product });

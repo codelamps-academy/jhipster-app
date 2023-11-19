@@ -35,7 +35,7 @@
       "fieldValidateRules": ["required"]
     }
   ],
-  "name": "Invoice",
+  "name": "abc",
   "relationships": [
     {
       "otherEntityName": "shipment",

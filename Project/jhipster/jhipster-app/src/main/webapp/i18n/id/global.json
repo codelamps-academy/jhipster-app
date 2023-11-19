@@ -8,7 +8,13 @@
       "entities": {
         "main": "Entitas",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
-        "product": "Product"
+        "product": "Product",
+        "productCategory": "Product Category",
+        "customer": "Customer",
+        "productOrder": "Product Order",
+        "orderItem": "Order Item",
+        "invoice": "Invoice",
+        "shipment": "Shipment"
       },
       "account": {
         "main": "Akun",

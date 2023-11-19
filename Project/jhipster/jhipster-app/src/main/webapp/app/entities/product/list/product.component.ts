@@ -13,6 +13,7 @@ import { SortService } from 'app/shared/sort/sort.service';
 import { IProduct } from '../product.model';
 import { EntityArrayResponseType, ProductService } from '../service/product.service';
 import { ProductDeleteDialogComponent } from '../delete/product-delete-dialog.component';
+import {CurrencyPipe} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -27,6 +28,7 @@ import { ProductDeleteDialogComponent } from '../delete/product-delete-dialog.co
     DurationPipe,
     FormatMediumDatetimePipe,
     FormatMediumDatePipe,
+    CurrencyPipe,
   ],
 })
 export class ProductComponent implements OnInit {

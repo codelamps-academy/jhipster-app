@@ -31,6 +31,14 @@
     }
   ],
   "name": "Product",
-  "relationships": [],
+  "relationships": [
+    {
+      "otherEntityName": "productCategory",
+      "otherEntityRelationshipName": "product",
+      "relationshipName": "productCategory",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
   "searchEngine": "no"
 }

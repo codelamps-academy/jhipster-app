@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Shipment baru",
+        "createOrEditLabel": "Buat atau edit Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Shipment dengan id {{ param }} telah dibuat",
+      "updated": "Shipment dengan id {{ param }} telah diperbaharui",
+      "deleted": "Shipment dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}
